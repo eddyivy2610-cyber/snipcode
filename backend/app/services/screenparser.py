@@ -40,8 +40,10 @@ def get_screenparser_model():
     if _model is not None:
         return _model, _image_processor
 
-    os.makedirs(LOCAL_MODEL_DIR, exist_ok=True)
-    logger.info(f"[ScreenParser] Initializing HuggingFace layout model '{HF_MODEL_ID}'...")
+    # On low-RAM free tier containers (512MB RAM), default to fast lightweight visual engine
+    if os.getenv("DISABLE_HF_SCREENPARSER", "1") == "1":
+        logger.info("[ScreenParser] Using lightweight visual ScreenParser engine (DISABLE_HF_SCREENPARSER=1).")
+        return None, None
 
     try:
         from transformers import AutoImageProcessor, AutoModelForObjectDetection

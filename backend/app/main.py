@@ -220,13 +220,18 @@ async def generate_endpoint(
            - UI_DESCRIPTION ➔ Zero-Shot LLM UI Compiler Engine
     """
     path = _save(file)
-    fused_comps = fuse_sensors(path)
+    fused_comps = []
+    try:
+        fused_comps = fuse_sensors(path)
+    except Exception as fusion_err:
+        print(f"[Generate Endpoint] Perception sensor warning/fallback: {fusion_err}")
+
     w, h = _image_size(path)
 
     # Clean detections safely
     comps = clean_detections(fused_comps, img_width=w, img_height=h)
 
-    # INTENT GUARDRAIL: No visual components detected (blank input image)
+    # INTENT GUARDRAIL: No visual components detected (blank input image or text-only)
     if len(comps) == 0:
         intent = classify_text_intent(prompt)
         
@@ -240,7 +245,7 @@ async def generate_endpoint(
                 "css": "body { background: #090611; }",
             }
             
-        elif intent == "VAGUE_TEXT":
+        elif intent == "VAGUE_TEXT" and not file.filename:
             return {
                 "filename": file.filename,
                 "components": [],
