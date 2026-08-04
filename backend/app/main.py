@@ -29,12 +29,19 @@ app = FastAPI(
     version="5.0.0",
 )
 
-allowed_origins_raw = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000,*")
+allowed_origins_raw = os.getenv("ALLOWED_ORIGINS", "*")
 allowed_origins = [o.strip() for o in allowed_origins_raw.split(",") if o.strip()]
+
+# Starlette CORSMiddleware requires allow_origins=["*"] alone for allow_all_origins=True
+if "*" in allowed_origins or not allowed_origins:
+    cors_origins = ["*"]
+else:
+    cors_origins = allowed_origins
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=allowed_origins,
+    allow_origins=cors_origins,
+    allow_origin_regex=r"https://.*\.vercel\.app|http://localhost:\d+|http://127\.0\.0\.1:\d+",
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
