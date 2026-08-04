@@ -2,7 +2,7 @@
 
 > **Vision-to-Code Compiler Engine** powered by **Multi-Sensor Perception (YOLOv8 + EasyOCR)**, **Sensor Fusion NMS Engine**, **IR v5.0 AST Compiler**, and **Zero-Shot LLM Code Refinement (Groq Qwen2.5-Coder)**.
 
-![Snipcode Architecture Banner](docs/images/snipcode_hero_architecture.jpg)
+![Snipcode Architecture Banner]()
 
 ---
 
