@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snipcode Live Preview</title>
+  <style>
+    /* Snipcode Generated Stylesheet */
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #090d13;
+      color: #c9d1d9;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    
+    .screen {
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 16px;
+      padding: 36px 32px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    /* --- Layout containers --- */
+    .layout-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .layout-column {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      width: 100%;
+    }
+    
+    /* --- Form & Card Container --- */
+    .card, .form-card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 16px;
+      padding: 28px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      width: 100%;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+    
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      width: 100%;
+      text-align: left;
+    }
+    
+    .form-label {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #8b949e;
+    }
+    
+    .form-input {
+      padding: 12px 16px;
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      color: #f0f6fc;
+      font-size: 0.95rem;
+      width: 100%;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .form-input:focus { outline: none; border-color: #58a6ff; box-shadow: 0 0 0 3px rgba(88,166,255,0.15); }
+    
+    /* --- Action Buttons & Links --- */
+    .btn {
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease;
+      background: linear-gradient(135deg, #238636, #2ea44f);
+      color: white;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      gap: 8px;
+    }
+    .btn:hover { background: #2ea44f; transform: translateY(-1px); box-shadow: 0 4px 14px rgba(46,164,79,0.3); }
+    
+    .nav-link { color: #58a6ff; text-decoration: none; font-weight: 600; transition: color 0.2s; }
+    .nav-link:hover { color: #79c0ff; text-decoration: underline; }
+    
+    .inline-action {
+      font-size: 0.9rem;
+      color: #8b949e;
+      text-align: center;
+      margin-top: 8px;
+    }
+    
+    .text-content { font-size: 1rem; line-height: 1.6; color: #e6edf3; }
+    .container-title { font-size: 1.35rem; font-weight: 700; color: #f0f6fc; margin-bottom: 8px; text-align: center; }
+  </style>
+</head>
+<body>
+<main class="screen">
+  <form class="card form-card">
+    <button class="btn">Sign Up Form</button>
+    <a href="#" class="nav-link">0</a>
+    <a href="#" class="nav-link">Link</a>
+    <button class="btn">Sign Up</button>
+    <p class="text-content">Name</p>
+    <input type="email" class="form-input" placeholder="Email" />
+    <input type="password" class="form-input" placeholder="Password" />
+    <button class="btn">Sign up</button>
+    <p class="inline-action">Already have an account? <a href="#" class="nav-link">Log In</a></p>
+    <button class="btn">Log In</button>
+    <button class="btn">Sign up with Google</button>
+  </form>
+</main>
+</body>
+</html>

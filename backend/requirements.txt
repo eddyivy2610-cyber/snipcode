@@ -1,0 +1,11 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+ultralytics==8.2.32
+easyocr==1.7.1
+pillow==10.3.0
+python-multipart==0.0.9
+pydantic==2.7.4
+python-dotenv==1.0.1
+torch==2.3.1
+torchvision==0.18.1
+requests==2.32.3

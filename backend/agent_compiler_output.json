@@ -1,0 +1,393 @@
+{
+  "session_id": "test_session_1",
+  "pipeline": "UI Compiler Agent v5.0",
+  "metadata": {
+    "source_image": "Screenshot (19).png",
+    "target_framework": "html",
+    "similarity_score": 0.95,
+    "retries_used": 1
+  },
+  "validation_report": {
+    "valid": true,
+    "warnings": [],
+    "errors": [],
+    "stats": {
+      "total_nodes": 1,
+      "submit_buttons": 0,
+      "inputs": 0,
+      "containers": 1
+    }
+  },
+  "ast": [
+    {
+      "id": "form_main",
+      "type": "Form",
+      "children": [
+        {
+          "id": "text_sign_up_form",
+          "type": "Label",
+          "content": {
+            "text": "Sign Up Form"
+          },
+          "bbox": [
+            71.0,
+            13.0,
+            147.0,
+            31.0
+          ],
+          "confidence": 0.7,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "text_0",
+          "type": "Text",
+          "content": {
+            "text": "0"
+          },
+          "bbox": [
+            1124.0,
+            50.0,
+            1154.0,
+            74.0
+          ],
+          "confidence": 0.63,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "text_cusers_usmani_desktop_easy_zocheaps6zodata_alhtmvai_html",
+          "type": "Text",
+          "content": {
+            "text": "CUsers/Usmani/Desktop/EASY%ZOCHEAPS6ZODATA ALhtmVai.html"
+          },
+          "bbox": [
+            182.0,
+            53.0,
+            609.0,
+            74.0
+          ],
+          "confidence": 0.42,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "text_0_file",
+          "type": "Text",
+          "content": {
+            "text": "0 File"
+          },
+          "bbox": [
+            131.0,
+            57.0,
+            171.0,
+            71.0
+          ],
+          "confidence": 0.68,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "text_relaunch_t0_update",
+          "type": "Text",
+          "content": {
+            "text": "Relaunch t0 update"
+          },
+          "bbox": [
+            1225.0,
+            57.0,
+            1333.0,
+            71.0
+          ],
+          "confidence": 0.58,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "text_sign_up",
+          "type": "Text",
+          "content": {
+            "text": "Sign Up"
+          },
+          "bbox": [
+            634.0,
+            182.0,
+            734.0,
+            214.0
+          ],
+          "confidence": 0.7,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "text_name",
+          "type": "Text",
+          "content": {
+            "text": "Name"
+          },
+          "bbox": [
+            537.0,
+            257.0,
+            585.0,
+            277.0
+          ],
+          "confidence": 0.7,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "label_email",
+          "type": "Label",
+          "content": {
+            "text": "Email"
+          },
+          "for": "input_email",
+          "bbox": [
+            537.0,
+            308.0,
+            583.0,
+            333.0
+          ],
+          "confidence": 0.7,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "input_email",
+          "type": "Input",
+          "input_type": "email",
+          "placeholder": "Enter email",
+          "bbox": [
+            537.0,
+            333.0,
+            583.0,
+            353.0
+          ],
+          "confidence": 0.7,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "label_password",
+          "type": "Label",
+          "content": {
+            "text": "Password"
+          },
+          "for": "input_password",
+          "bbox": [
+            523.43310546875,
+            371.2931823730469,
+            842.4586791992188,
+            396.2931823730469
+          ],
+          "confidence": 0.56,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "ScreenParser"
+          }
+        },
+        {
+          "id": "input_password",
+          "type": "Input",
+          "input_type": "password",
+          "placeholder": "Enter password",
+          "bbox": [
+            523.43310546875,
+            396.2931823730469,
+            842.4586791992188,
+            443.8771057128906
+          ],
+          "confidence": 0.56,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "ScreenParser"
+          },
+          "trailing_icon": "eye"
+        },
+        {
+          "id": "btn_sign_up",
+          "type": "Button",
+          "role": "submit",
+          "variant": "primary",
+          "content": {
+            "text": "Sign up"
+          },
+          "bbox": [
+            522.1357421875,
+            462.9685363769531,
+            841.7681884765625,
+            508.4125061035156
+          ],
+          "confidence": 0.56,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "ScreenParser"
+          }
+        },
+        {
+          "id": "text_already_have_an_account__log_in",
+          "type": "Text",
+          "content": {
+            "text": "Already have an account? Log In"
+          },
+          "bbox": [
+            579.0,
+            523.0,
+            789.0,
+            541.0
+          ],
+          "confidence": 0.63,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "text_sign_up_with_google",
+          "type": "Text",
+          "content": {
+            "text": "Sign up with Google"
+          },
+          "bbox": [
+            616.0,
+            608.0,
+            778.0,
+            632.0
+          ],
+          "confidence": 0.64,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "text_eng",
+          "type": "Text",
+          "content": {
+            "text": "ENG"
+          },
+          "bbox": [
+            1137.0,
+            731.0,
+            1165.0,
+            745.0
+          ],
+          "confidence": 0.7,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "text_20_14",
+          "type": "Text",
+          "content": {
+            "text": "20.14"
+          },
+          "bbox": [
+            1293.0,
+            731.0,
+            1325.0,
+            743.0
+          ],
+          "confidence": 0.56,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "text_29_01_2026",
+          "type": "Text",
+          "content": {
+            "text": "29/01/2026"
+          },
+          "bbox": [
+            1259.0,
+            745.0,
+            1325.0,
+            761.0
+          ],
+          "confidence": 0.7,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        },
+        {
+          "id": "text_intl",
+          "type": "Text",
+          "content": {
+            "text": "INTL"
+          },
+          "bbox": [
+            1137.0,
+            747.0,
+            1165.0,
+            761.0
+          ],
+          "confidence": 0.7,
+          "provenance": {
+            "layout": "YOLO",
+            "text": "EasyOCR",
+            "semantics": "FusionHeuristics"
+          }
+        }
+      ],
+      "provenance": {
+        "layout": "YOLO",
+        "text": "EasyOCR",
+        "semantics": "ScreenParser"
+      }
+    }
+  ],
+  "html": "<!DOCTYPE html>\n<html lang=\"en\" data-theme=\"dark\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Snipcode Live Preview</title>\n  <style>\n    /* Snipcode Design System Theme Stylesheet */\n    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');\n\n    :root {\n      --bg-page: #090d13;\n      --bg-card: #161b22;\n      --bg-input: #0d1117;\n      --border-card: #30363d;\n      --border-input: #30363d;\n      --text-primary: #f0f6fc;\n      --text-secondary: #c9d1d9;\n      --text-muted: #8b949e;\n      --accent-primary: #238636;\n      --accent-hover: #2ea44f;\n      --accent-gradient: linear-gradient(135deg, #238636, #2ea44f);\n      --radius-card: 16px;\n      --radius-input: 8px;\n      --radius-btn: 8px;\n      --shadow-card: 0 16px 40px rgba(0, 0, 0, 0.45);\n      --shadow-btn-hover: 0 4px 14px rgba(46, 164, 79, 0.3);\n      --font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;\n    }\n\n    * { box-sizing: border-box; margin: 0; padding: 0; }\n\n    body {\n      font-family: var(--font-family);\n      background: var(--bg-page);\n      color: var(--text-secondary);\n      padding: 40px 20px;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      min-height: 100vh;\n    }\n\n    .screen {\n      width: 100%;\n      max-width: 480px;\n      margin: 0 auto;\n      background: var(--bg-card);\n      border: 1px solid var(--border-card);\n      border-radius: var(--radius-card);\n      padding: 36px 32px;\n      box-shadow: var(--shadow-card);\n      display: flex;\n      flex-direction: column;\n      gap: 20px;\n    }\n\n    /* --- Semantic Design System Components --- */\n    .card, .form-card {\n      background: var(--bg-card);\n      border: 1px solid var(--border-card);\n      border-radius: var(--radius-card);\n      padding: 28px 24px;\n      display: flex;\n      flex-direction: column;\n      gap: 18px;\n      width: 100%;\n      box-shadow: var(--shadow-card);\n    }\n\n    .form-group {\n      display: flex;\n      flex-direction: column;\n      gap: 6px;\n      width: 100%;\n      text-align: left;\n    }\n\n    .form-label {\n      font-size: 0.875rem;\n      font-weight: 600;\n      color: var(--text-muted);\n    }\n\n    .form-input {\n      padding: 12px 16px;\n      background: var(--bg-input);\n      border: 1px solid var(--border-input);\n      border-radius: var(--radius-input);\n      color: var(--text-primary);\n      font-size: 0.95rem;\n      width: 100%;\n      transition: border-color 0.2s, box-shadow 0.2s;\n    }\n    .form-input:focus { outline: none; border-color: var(--accent-hover); box-shadow: 0 0 0 3px rgba(88,166,255,0.15); }\n\n    .btn {\n      padding: 12px 24px;\n      border-radius: var(--radius-btn);\n      font-weight: 600;\n      font-size: 0.95rem;\n      cursor: pointer;\n      border: none;\n      transition: all 0.2s ease;\n      background: var(--accent-gradient);\n      color: white;\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      width: 100%;\n      gap: 8px;\n    }\n    .btn:hover { background: var(--accent-hover); transform: translateY(-1px); box-shadow: var(--shadow-btn-hover); }\n\n    .nav-link { color: #58a6ff; text-decoration: none; font-weight: 600; transition: color 0.2s; }\n    .nav-link:hover { color: #79c0ff; text-decoration: underline; }\n\n    .inline-action {\n      font-size: 0.9rem;\n      color: var(--text-muted);\n      text-align: center;\n      margin-top: 8px;\n    }\n\n    .text-content { font-size: 1rem; line-height: 1.6; color: var(--text-primary); }\n    .container-title { font-size: 1.35rem; font-weight: 700; color: var(--text-primary); margin-bottom: 8px; text-align: center; }\n\n    .divider {\n      display: flex;\n      align-items: center;\n      text-align: center;\n      color: var(--text-muted);\n      font-size: 0.85rem;\n      font-weight: 600;\n      margin: 12px 0;\n      width: 100%;\n    }\n    .divider::before, .divider::after {\n      content: '';\n      flex: 1;\n      border-bottom: 1px solid var(--border-card);\n    }\n    .divider span { padding: 0 12px; text-transform: uppercase; letter-spacing: 0.05em; }\n\n    .input-wrapper { position: relative; display: flex; align-items: center; width: 100%; }\n    .input-icon { position: absolute; right: 14px; cursor: pointer; font-size: 1.1rem; color: var(--text-muted); user-select: none; }\n    .btn-icon { font-size: 1.1rem; display: inline-flex; align-items: center; margin-right: 6px; }\n\n    /* --- Reusable Spacing Utility Classes --- */\n    .mb-8  { margin-bottom: 8px !important; }\n    .mb-12 { margin-bottom: 12px !important; }\n    .mb-16 { margin-bottom: 16px !important; }\n    .mb-20 { margin-bottom: 20px !important; }\n    .mb-24 { margin-bottom: 24px !important; }\n    .mb-32 { margin-bottom: 32px !important; }\n    .mb-36 { margin-bottom: 36px !important; }\n    .mb-40 { margin-bottom: 40px !important; }\n    .mb-48 { margin-bottom: 48px !important; }\n  </style>\n</head>\n<body>\n  <main class=\"screen\">\n    <form id=\"form_signup\" class=\"card form-card\" data-action=\"submit_form\">\n      <h2 class=\"container-title mb-24\">Sign Up Form</h2>\n      <div id=\"field_name\" class=\"form-group\" data-action=\"input_name\">\n        <label for=\"input_name\" class=\"form-label\">Name</label>\n        <input id=\"input_name\" class=\"form-input\" type=\"text\" placeholder=\"Enter name\" />\n      </div>\n      <div id=\"field_email\" class=\"form-group\" data-action=\"input_email\">\n        <label for=\"input_email\" class=\"form-label\">Email</label>\n        <input id=\"input_email\" class=\"form-input\" type=\"email\" placeholder=\"Enter email\" />\n      </div>\n      <div id=\"field_password\" class=\"form-group\" data-action=\"input_password\">\n        <label for=\"input_password\" class=\"form-label\">Password</label>\n        <div class=\"input-wrapper\">\n          <input id=\"input_password\" class=\"form-input\" type=\"password\" placeholder=\"Enter password\" />\n          <span class=\"input-icon\">\ud83d\udc41\ufe0f</span>\n        </div>\n      </div>\n      <button id=\"btn_signup\" class=\"btn\" type=\"submit\" data-action=\"submit_form\">Sign up</button>\n      <p class=\"inline-action mb-12\">Already have an account? Log In</p>\n      <button id=\"btn_signup_google\" class=\"btn\" type=\"button\" data-action=\"signup_with_google\">Sign up with Google</button>\n    </form>\n  </main>\n</body>\n</html>",
+  "css": "/* Snipcode Design System Theme Stylesheet */\n@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');\n\n:root {\n  --bg-page: #090d13;\n  --bg-card: #161b22;\n  --bg-input: #0d1117;\n  --border-card: #30363d;\n  --border-input: #30363d;\n  --text-primary: #f0f6fc;\n  --text-secondary: #c9d1d9;\n  --text-muted: #8b949e;\n  --accent-primary: #238636;\n  --accent-hover: #2ea44f;\n  --accent-gradient: linear-gradient(135deg, #238636, #2ea44f);\n  --radius-card: 16px;\n  --radius-input: 8px;\n  --radius-btn: 8px;\n  --shadow-card: 0 16px 40px rgba(0, 0, 0, 0.45);\n  --shadow-btn-hover: 0 4px 14px rgba(46, 164, 79, 0.3);\n  --font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;\n}\n\n* { box-sizing: border-box; margin: 0; padding: 0; }\n\nbody {\n  font-family: var(--font-family);\n  background: var(--bg-page);\n  color: var(--text-secondary);\n  padding: 40px 20px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  min-height: 100vh;\n}\n\n.screen {\n  width: 100%;\n  max-width: 480px;\n  margin: 0 auto;\n  background: var(--bg-card);\n  border: 1px solid var(--border-card);\n  border-radius: var(--radius-card);\n  padding: 36px 32px;\n  box-shadow: var(--shadow-card);\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n}\n\n/* --- Semantic Design System Components --- */\n.card, .form-card {\n  background: var(--bg-card);\n  border: 1px solid var(--border-card);\n  border-radius: var(--radius-card);\n  padding: 28px 24px;\n  display: flex;\n  flex-direction: column;\n  gap: 18px;\n  width: 100%;\n  box-shadow: var(--shadow-card);\n}\n\n.form-group {\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n  width: 100%;\n  text-align: left;\n}\n\n.form-label {\n  font-size: 0.875rem;\n  font-weight: 600;\n  color: var(--text-muted);\n}\n\n.form-input {\n  padding: 12px 16px;\n  background: var(--bg-input);\n  border: 1px solid var(--border-input);\n  border-radius: var(--radius-input);\n  color: var(--text-primary);\n  font-size: 0.95rem;\n  width: 100%;\n  transition: border-color 0.2s, box-shadow 0.2s;\n}\n.form-input:focus { outline: none; border-color: var(--accent-hover); box-shadow: 0 0 0 3px rgba(88,166,255,0.15); }\n\n.btn {\n  padding: 12px 24px;\n  border-radius: var(--radius-btn);\n  font-weight: 600;\n  font-size: 0.95rem;\n  cursor: pointer;\n  border: none;\n  transition: all 0.2s ease;\n  background: var(--accent-gradient);\n  color: white;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  width: 100%;\n  gap: 8px;\n}\n.btn:hover { background: var(--accent-hover); transform: translateY(-1px); box-shadow: var(--shadow-btn-hover); }\n\n.nav-link { color: #58a6ff; text-decoration: none; font-weight: 600; transition: color 0.2s; }\n.nav-link:hover { color: #79c0ff; text-decoration: underline; }\n\n.inline-action {\n  font-size: 0.9rem;\n  color: var(--text-muted);\n  text-align: center;\n  margin-top: 8px;\n}\n\n.text-content { font-size: 1rem; line-height: 1.6; color: var(--text-primary); }\n.container-title { font-size: 1.35rem; font-weight: 700; color: var(--text-primary); margin-bottom: 8px; text-align: center; }\n\n.divider {\n  display: flex;\n  align-items: center;\n  text-align: center;\n  color: var(--text-muted);\n  font-size: 0.85rem;\n  font-weight: 600;\n  margin: 12px 0;\n  width: 100%;\n}\n.divider::before, .divider::after {\n  content: '';\n  flex: 1;\n  border-bottom: 1px solid var(--border-card);\n}\n.divider span { padding: 0 12px; text-transform: uppercase; letter-spacing: 0.05em; }\n\n.input-wrapper { position: relative; display: flex; align-items: center; width: 100%; }\n.input-icon { position: absolute; right: 14px; cursor: pointer; font-size: 1.1rem; color: var(--text-muted); user-select: none; }\n.btn-icon { font-size: 1.1rem; display: inline-flex; align-items: center; margin-right: 6px; }\n\n/* --- Reusable Spacing Utility Classes --- */\n.mb-8  { margin-bottom: 8px !important; }\n.mb-12 { margin-bottom: 12px !important; }\n.mb-16 { margin-bottom: 16px !important; }\n.mb-20 { margin-bottom: 20px !important; }\n.mb-24 { margin-bottom: 24px !important; }\n.mb-32 { margin-bottom: 32px !important; }\n.mb-36 { margin-bottom: 36px !important; }\n.mb-40 { margin-bottom: 40px !important; }\n.mb-48 { margin-bottom: 48px !important; }",
+  "history": [
+    {
+      "action": "set_ast",
+      "source": "understand_sensor_fusion",
+      "total_nodes": 1
+    },
+    {
+      "action": "set_ast",
+      "source": "repaired_ast_linter",
+      "total_nodes": 1
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "source_image": "Screenshot (19).png",
+    "width": 1366,
+    "height": 768,
+    "engine": "ScreenParser-v1.0",
+    "total_elements": 2
+  },
+  "components": [
+    {
+      "id": "sp_comp_1",
+      "type": "Action Button",
+      "role": "action",
+      "variant": "outlined",
+      "content": {
+        "text": "Password"
+      },
+      "bbox": [
+        523.43310546875,
+        396.2931823730469,
+        842.4586791992188,
+        443.8771057128906
+      ],
+      "confidence": 0.27,
+      "source": "ScreenParser"
+    },
+    {
+      "id": "sp_comp_2",
+      "type": "Action Button",
+      "role": "action",
+      "variant": "outlined",
+      "content": {
+        "text": "up Sign"
+      },
+      "bbox": [
+        522.1357421875,
+        462.9685363769531,
+        841.7681884765625,
+        508.4125061035156
+      ],
+      "confidence": 0.26,
+      "source": "ScreenParser"
+    }
+  ]
+}

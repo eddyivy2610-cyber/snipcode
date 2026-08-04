@@ -1,0 +1,358 @@
+[
+  {
+    "id": "form_main",
+    "type": "Form",
+    "children": [
+      {
+        "id": "text_sign_up_form",
+        "type": "Label",
+        "content": {
+          "text": "Sign Up Form"
+        },
+        "bbox": [
+          71.0,
+          13.0,
+          147.0,
+          31.0
+        ],
+        "confidence": 0.7,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "text_0",
+        "type": "Text",
+        "content": {
+          "text": "0"
+        },
+        "bbox": [
+          1124.0,
+          50.0,
+          1154.0,
+          74.0
+        ],
+        "confidence": 0.63,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "text_cusers_usmani_desktop_easy_zocheaps6zodata_alhtmvai_html",
+        "type": "Text",
+        "content": {
+          "text": "CUsers/Usmani/Desktop/EASY%ZOCHEAPS6ZODATA ALhtmVai.html"
+        },
+        "bbox": [
+          182.0,
+          53.0,
+          609.0,
+          74.0
+        ],
+        "confidence": 0.42,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "text_0_file",
+        "type": "Text",
+        "content": {
+          "text": "0 File"
+        },
+        "bbox": [
+          131.0,
+          57.0,
+          171.0,
+          71.0
+        ],
+        "confidence": 0.68,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "text_relaunch_t0_update",
+        "type": "Text",
+        "content": {
+          "text": "Relaunch t0 update"
+        },
+        "bbox": [
+          1225.0,
+          57.0,
+          1333.0,
+          71.0
+        ],
+        "confidence": 0.58,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "text_sign_up",
+        "type": "Text",
+        "content": {
+          "text": "Sign Up"
+        },
+        "bbox": [
+          634.0,
+          182.0,
+          734.0,
+          214.0
+        ],
+        "confidence": 0.7,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "text_name",
+        "type": "Text",
+        "content": {
+          "text": "Name"
+        },
+        "bbox": [
+          537.0,
+          257.0,
+          585.0,
+          277.0
+        ],
+        "confidence": 0.7,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "label_email",
+        "type": "Label",
+        "content": {
+          "text": "Email"
+        },
+        "for": "input_email",
+        "bbox": [
+          537.0,
+          308.0,
+          583.0,
+          333.0
+        ],
+        "confidence": 0.7,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "input_email",
+        "type": "Input",
+        "input_type": "email",
+        "placeholder": "Enter email",
+        "bbox": [
+          537.0,
+          333.0,
+          583.0,
+          353.0
+        ],
+        "confidence": 0.7,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "label_password",
+        "type": "Label",
+        "content": {
+          "text": "Password"
+        },
+        "for": "input_password",
+        "bbox": [
+          523.43310546875,
+          371.2931823730469,
+          842.4586791992188,
+          396.2931823730469
+        ],
+        "confidence": 0.56,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "ScreenParser"
+        }
+      },
+      {
+        "id": "input_password",
+        "type": "Input",
+        "input_type": "password",
+        "placeholder": "Enter password",
+        "bbox": [
+          523.43310546875,
+          396.2931823730469,
+          842.4586791992188,
+          443.8771057128906
+        ],
+        "confidence": 0.56,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "ScreenParser"
+        },
+        "trailing_icon": "eye"
+      },
+      {
+        "id": "btn_sign_up",
+        "type": "Button",
+        "role": "submit",
+        "variant": "primary",
+        "content": {
+          "text": "Sign up"
+        },
+        "bbox": [
+          522.1357421875,
+          462.9685363769531,
+          841.7681884765625,
+          508.4125061035156
+        ],
+        "confidence": 0.56,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "ScreenParser"
+        }
+      },
+      {
+        "id": "text_already_have_an_account__log_in",
+        "type": "Text",
+        "content": {
+          "text": "Already have an account? Log In"
+        },
+        "bbox": [
+          579.0,
+          523.0,
+          789.0,
+          541.0
+        ],
+        "confidence": 0.63,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "text_sign_up_with_google",
+        "type": "Text",
+        "content": {
+          "text": "Sign up with Google"
+        },
+        "bbox": [
+          616.0,
+          608.0,
+          778.0,
+          632.0
+        ],
+        "confidence": 0.64,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "text_eng",
+        "type": "Text",
+        "content": {
+          "text": "ENG"
+        },
+        "bbox": [
+          1137.0,
+          731.0,
+          1165.0,
+          745.0
+        ],
+        "confidence": 0.7,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "text_20_14",
+        "type": "Text",
+        "content": {
+          "text": "20.14"
+        },
+        "bbox": [
+          1293.0,
+          731.0,
+          1325.0,
+          743.0
+        ],
+        "confidence": 0.56,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "text_29_01_2026",
+        "type": "Text",
+        "content": {
+          "text": "29/01/2026"
+        },
+        "bbox": [
+          1259.0,
+          745.0,
+          1325.0,
+          761.0
+        ],
+        "confidence": 0.7,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      },
+      {
+        "id": "text_intl",
+        "type": "Text",
+        "content": {
+          "text": "INTL"
+        },
+        "bbox": [
+          1137.0,
+          747.0,
+          1165.0,
+          761.0
+        ],
+        "confidence": 0.7,
+        "provenance": {
+          "layout": "YOLO",
+          "text": "EasyOCR",
+          "semantics": "FusionHeuristics"
+        }
+      }
+    ],
+    "provenance": {
+      "layout": "YOLO",
+      "text": "EasyOCR",
+      "semantics": "ScreenParser"
+    }
+  }
+]

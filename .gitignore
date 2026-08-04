@@ -1,0 +1,105 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.pyo
+.hypothesis/
+.pytest_cache/
+
+# Node & Next.js dependencies and builds
+node_modules/
+.next/
+out/
+build/
+dist/
+.vercel
+
+# Node environment variables
+.env
+.env*.local
+.env.production
+.env.development
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Project uploads and temporary generated artifacts
+backend/uploads/*
+!backend/uploads/.gitkeep
+generated/*
+!generated/.gitkeep
+
+# IDE / Antigravity workspace files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Intermediate training checkpoints & dataset dumps
+weights/
+train data/
+
+# Downloaded EasyOCR weights (downloaded automatically on server first run)
+backend/app/models/ocr/
+
+# HuggingFace / ScreenParser cached models
+backend/app/models/screenparser/

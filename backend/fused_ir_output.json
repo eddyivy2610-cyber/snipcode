@@ -1,0 +1,342 @@
+[
+  {
+    "id": "button_1",
+    "type": "Button",
+    "role": "action",
+    "variant": "outlined",
+    "content": {
+      "text": "Password"
+    },
+    "bbox": [
+      523.43310546875,
+      396.2931823730469,
+      842.4586791992188,
+      443.8771057128906
+    ],
+    "confidence": 0.27,
+    "text_confidence": 1.0,
+    "source": [
+      "YOLO",
+      "EasyOCR",
+      "ScreenParser"
+    ],
+    "children": []
+  },
+  {
+    "id": "button_2",
+    "type": "Button",
+    "role": "action",
+    "variant": "outlined",
+    "content": {
+      "text": "Sign up"
+    },
+    "bbox": [
+      522.1357421875,
+      462.9685363769531,
+      841.7681884765625,
+      508.4125061035156
+    ],
+    "confidence": 0.26,
+    "text_confidence": 1.0,
+    "source": [
+      "YOLO",
+      "EasyOCR",
+      "ScreenParser"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_3",
+    "type": "Text",
+    "role": "label",
+    "variant": "body",
+    "content": {
+      "text": "Sign Up Form"
+    },
+    "bbox": [
+      71.0,
+      13.0,
+      147.0,
+      31.0
+    ],
+    "confidence": 0.99,
+    "text_confidence": 0.99,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_4",
+    "type": "Text",
+    "role": "label",
+    "variant": "body",
+    "content": {
+      "text": "0 File"
+    },
+    "bbox": [
+      131.0,
+      57.0,
+      171.0,
+      71.0
+    ],
+    "confidence": 0.96,
+    "text_confidence": 0.96,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_5",
+    "type": "Text",
+    "role": "label",
+    "variant": "body",
+    "content": {
+      "text": "CUsers/Usmani/Desktop/EASY%ZOCHEAPS6ZODATA ALhtmVai.html"
+    },
+    "bbox": [
+      182.0,
+      53.0,
+      609.0,
+      74.0
+    ],
+    "confidence": 0.3,
+    "text_confidence": 0.3,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_6",
+    "type": "Text",
+    "role": "label",
+    "variant": "body",
+    "content": {
+      "text": "0"
+    },
+    "bbox": [
+      1124.0,
+      50.0,
+      1154.0,
+      74.0
+    ],
+    "confidence": 0.83,
+    "text_confidence": 0.83,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_7",
+    "type": "Text",
+    "role": "label",
+    "variant": "body",
+    "content": {
+      "text": "Relaunch t0 update"
+    },
+    "bbox": [
+      1225.0,
+      57.0,
+      1333.0,
+      71.0
+    ],
+    "confidence": 0.7,
+    "text_confidence": 0.7,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_8",
+    "type": "Text",
+    "role": "label",
+    "variant": "body",
+    "content": {
+      "text": "Sign Up"
+    },
+    "bbox": [
+      634.0,
+      182.0,
+      734.0,
+      214.0
+    ],
+    "confidence": 1.0,
+    "text_confidence": 1.0,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_9",
+    "type": "Input",
+    "role": "text_input",
+    "variant": "outlined",
+    "content": {
+      "text": "Name"
+    },
+    "bbox": [
+      537.0,
+      257.0,
+      585.0,
+      277.0
+    ],
+    "confidence": 1.0,
+    "text_confidence": 1.0,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_10",
+    "type": "Input",
+    "role": "text_input",
+    "variant": "outlined",
+    "content": {
+      "text": "Email"
+    },
+    "bbox": [
+      537.0,
+      333.0,
+      583.0,
+      353.0
+    ],
+    "confidence": 1.0,
+    "text_confidence": 1.0,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_11",
+    "type": "Text",
+    "role": "label",
+    "variant": "body",
+    "content": {
+      "text": "Already have an account? Log In"
+    },
+    "bbox": [
+      579.0,
+      523.0,
+      789.0,
+      541.0
+    ],
+    "confidence": 0.83,
+    "text_confidence": 0.83,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_12",
+    "type": "Text",
+    "role": "label",
+    "variant": "body",
+    "content": {
+      "text": "Sign up with Google"
+    },
+    "bbox": [
+      616.0,
+      608.0,
+      778.0,
+      632.0
+    ],
+    "confidence": 0.84,
+    "text_confidence": 0.84,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_13",
+    "type": "Text",
+    "role": "label",
+    "variant": "body",
+    "content": {
+      "text": "ENG"
+    },
+    "bbox": [
+      1137.0,
+      731.0,
+      1165.0,
+      745.0
+    ],
+    "confidence": 1.0,
+    "text_confidence": 1.0,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_14",
+    "type": "Text",
+    "role": "label",
+    "variant": "body",
+    "content": {
+      "text": "20.14"
+    },
+    "bbox": [
+      1293.0,
+      731.0,
+      1325.0,
+      743.0
+    ],
+    "confidence": 0.66,
+    "text_confidence": 0.66,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_15",
+    "type": "Text",
+    "role": "label",
+    "variant": "body",
+    "content": {
+      "text": "INTL"
+    },
+    "bbox": [
+      1137.0,
+      747.0,
+      1165.0,
+      761.0
+    ],
+    "confidence": 1.0,
+    "text_confidence": 1.0,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  },
+  {
+    "id": "text_16",
+    "type": "Text",
+    "role": "label",
+    "variant": "body",
+    "content": {
+      "text": "29/01/2026"
+    },
+    "bbox": [
+      1259.0,
+      745.0,
+      1325.0,
+      761.0
+    ],
+    "confidence": 1.0,
+    "text_confidence": 1.0,
+    "source": [
+      "EasyOCR"
+    ],
+    "children": []
+  }
+]

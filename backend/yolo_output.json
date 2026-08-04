@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "source_image": "Screenshot (19).png",
+    "engine": "YOLOv8",
+    "total_elements": 2
+  },
+  "components": [
+    {
+      "type": "Link",
+      "bbox": [
+        523.43310546875,
+        396.2931823730469,
+        842.4586791992188,
+        443.8771057128906
+      ],
+      "confidence": 0.27
+    },
+    {
+      "type": "Button",
+      "bbox": [
+        522.1357421875,
+        462.9685363769531,
+        841.7681884765625,
+        508.4125061035156
+      ],
+      "confidence": 0.26
+    }
+  ]
+}
