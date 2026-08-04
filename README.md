@@ -237,13 +237,25 @@ Frontend Web App will be live at: **`http://localhost:3000`**
    - `NEXT_PUBLIC_API_URL` = `https://your-backend.railway.app`
 4. Click **Deploy**.
 
-### Deploying Backend to Railway / Render
-1. Import repository to **[Railway](https://railway.app)** or **Render**.
-2. Set **Root Directory** to `backend`.
-3. Add Environment Variable:
-   - `GROQ_API_KEY` = `your_groq_api_key`
-   - `ALLOWED_ORIGINS` = `https://your-frontend.vercel.app`
-4. Start Command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+### Deploying Backend to Render
+1. Import repository to **[Render](https://render.com)**.
+2. Select **Web Service** $\rightarrow$ Build from Blueprint or GitHub repository.
+3. Configuration:
+   - **Root Directory**: `backend`
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+   - **Health Check Path**: `/health`
+4. Add Environment Variables:
+   - `GROQ_API_KEY`: *(Your free Groq API key)*
+   - `ALLOWED_ORIGINS`: `https://your-frontend.vercel.app,http://localhost:3000,*`
+
+### ⏰ Keeping Render Free Tier Awake (UptimeRobot / Cron Bot)
+To prevent Render's free tier from going to sleep after 15 minutes of inactivity:
+1. Create a free account on **[UptimeRobot](https://uptimerobot.com)** or **[cron-job.org](https://cron-job.org)**.
+2. Create a new **HTTP(s) Monitor**:
+   - **URL**: `https://your-snipcode-api.onrender.com/health`
+   - **Monitoring Interval**: Every 5 or 10 minutes.
+3. This keeps your FastAPI backend pre-warmed 24/7 with zero latency cold starts!
 
 ---
 

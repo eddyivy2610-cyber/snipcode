@@ -163,9 +163,10 @@ def _image_size(path: str) -> tuple[int, int]:
 # ---------------------------------------------------------------------------
 
 @app.get("/")
-def root():
+@app.get("/health")
+def health_check():
     return {
-        "status":  "online",
+        "status":  "healthy",
         "service": "Snipcode AI Studio API",
         "version": "5.0.0",
         "intent_classifier": "active",
